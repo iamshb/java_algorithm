@@ -1,14 +1,14 @@
 package chap01;
 import java.util.Scanner;
 
-class Max3 {
-    public static void main(String args[]) {
+public class Max3 {
+    public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("Input some number.");
-        System.out.println("a : "); int a = stdIn.nextInt();
-        System.out.println("b : "); int b = stdIn.nextInt();
-        System.out.println("c : "); int c = stdIn.nextInt();
+        System.out.print("a : "); int a = stdIn.nextInt();
+        System.out.print("b : "); int b = stdIn.nextInt();
+        System.out.print("c : "); int c = stdIn.nextInt();
         stdIn.close();
 
         int max = a;
